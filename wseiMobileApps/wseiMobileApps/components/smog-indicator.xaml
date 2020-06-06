@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Frame xmlns="http://xamarin.com/schemas/2014/forms"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="wseiMobileApps.components.SmogIndicator"
+       x:Name="RootView"
+       CornerRadius="50"
+       Padding="0"
+       HorizontalOptions="Center"
+       VerticalOptions="Center"
+       HeightRequest="100"
+       WidthRequest="100"
+       HasShadow="False"
+       BackgroundColor="#33f069"
+       BorderColor="Gray">
+    <Label
+        HorizontalTextAlignment="Center"
+        VerticalTextAlignment="Center">
+        <Label.FormattedText>
+            <FormattedString>
+                <Span Text="{Binding Path=Value, Source={x:Reference RootView}}"
+                      FontAttributes="Bold"
+                      FontSize="30"
+                      TextColor="Black" />
+                <Span
+                    Text="{x:Static x:Environment.NewLine}" />
+                <Span Text="Points"
+                      FontSize="12"
+                      TextColor="Blue" />
+            </FormattedString>
+        </Label.FormattedText>
+    </Label>
+</Frame>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "phfT6nWxw8So0W2LWvH02Y/Nkdqw/gCJVp9ey99CXMsDwTfw93RZ+z1zDAxGJOZABLpUUG3Rfxs9NzqMz7U2sg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arvade\\RiderProjects\\wseiMobileApps\\wseiMobileApps\\wseiMobileApps.iOS\\wseiMobileApps.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arvade\\.nuget\\packages\\xamarin.forms\\4.4.0.991640\\xamarin.forms.4.4.0.991640.nupkg.sha512"
+  ],
+  "logs": []
+}
